@@ -1,0 +1,224 @@
+:root {
+    --primary-color: #FFFFFF;
+    --accent-color: #2F303A;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.portfolio-list, .navigation-list, .contacts-list, .benefits-list, .team-list {
+    list-style-type: none;
+    display: flex;
+}
+
+h2,
+h3 {
+    color: #212121;
+}
+
+/* header */
+.header {
+    display: flex;
+    padding: 19px 0 0;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    margin-left: 215px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+}
+
+.logo2 {
+    color: #000000
+}
+
+.navigation-item a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.contacts-item a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    margin-left: 331px;
+    margin-right: 50px;
+}
+
+.navigation-item a:hover,
+.navigation-item a:focus,
+.contacts-item a:focus,
+.contacts-item a:hover {
+    cursor: pointer;
+    color: #2196F3;
+    text-decoration: none
+}
+
+/* main */
+
+/* hero */
+.hero {
+    background-color: var(--accent-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 696px;
+    margin-bottom: 30px;
+    
+}
+
+.order-button {
+    width: 200px;
+    justify-content: center;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    
+ }
+
+/* benefits */
+.benefits {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.benefits-title {
+    display: none;
+}
+
+.benefit-item{
+    width: 270px;
+    height: 101px;
+    margin-right: 30px;
+   
+}
+.benefit{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+}
+
+.section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team li {
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.benefits {
+    display: flex;
+}
+
+.benefits-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-left: 0px;
+}
+.portfolio-img{
+    margin-right: 30px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--accent-color);
+}
+
+.logo3 {
+    color: #FFFFFF;
+}
