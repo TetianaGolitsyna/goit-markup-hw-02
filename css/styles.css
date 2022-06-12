@@ -121,6 +121,7 @@ h3 {
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 
@@ -211,7 +212,7 @@ h3 {
 
 }
 
-.team>h3 {
+.team-member-name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -220,7 +221,16 @@ h3 {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
+.team-member-position{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
 .benefits {
     display: flex;
 }
@@ -260,7 +270,13 @@ h3 {
     padding-bottom: 60px;
     padding-left: 215px;
 }
-
+.adress-item:focus,
+.adress-item:hover,
+.adress-map:focus,
+.adress-map:hover {
+    cursor: pointer;
+    color: #2196F3;
+    text-decoration: none}
 .logo-part {
     color: #FFFFFF;
 }
@@ -290,6 +306,8 @@ h3 {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
+
 
 /* page portfolio */
 /* 
@@ -327,6 +345,7 @@ main portfolio */
 .portfolio-botton {
     background-color: #F5F4FA;
     border-radius: 4px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
